@@ -1,0 +1,501 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+body{
+    background-color: #fdf3dd;
+}
+.imgMobile{
+    display: none;
+}
+.fondoInicio{
+    background-color: #fdf3dd;
+    background-image: url(/img/justicia-derecho-estudio-juridico.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf3dd;
+}
+header nav a{
+    color: #312018;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Mako', sans-serif;
+    font-size: 20px;
+}
+header nav a:hover{
+    color: #e06025;
+    font-weight: bold;
+}
+.logo{
+    margin-left: 50px;
+    transition: all 4s ease-in
+}
+.logo:hover{
+    transform: rotate(20deg); 
+}
+.principal{
+    background-color:#fdf3dd;
+    width: 95%;
+    margin: auto;
+}
+
+.titulo1{
+    color: #255957;
+    font-size: 50px;
+    font-style: normal;
+    font-family: 'Marcellus', serif;
+    text-decoration: none;
+    text-align: right;
+    margin: 20px auto;
+    padding: 100px;
+}
+.titulo2{
+    color: #255957;
+    font-size: 35px;
+    font-style: normal;
+    font-family: 'Marcellus', serif;
+    text-decoration: none;
+    text-align: center;
+}
+h2{
+    color: #e06025;
+    font-family: 'Marcellus', serif;
+    font-size: 40px;
+    font-style:normal;
+    text-align: center;
+    padding: 15px;
+}
+h3{
+    color: #e06025;
+    font-family: 'Mako', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px; 
+    text-align: left;
+    padding: 15px;
+}
+h4{
+    color: #6e4625;
+    font-family: 'Mako', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: left;
+    padding: 15px;
+}
+.estiloParrafo{
+    color: #3b1a0d;
+    font-family: 'Mako', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: left;
+    line-height: 250%;
+    padding: 15px; 
+    margin-left: 70px;
+    margin-right: 20px;
+}
+.parrafoSmall{
+    color: #3b1a0d;
+    font-family: 'Mako', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: left;
+    line-height: 200%;
+    margin: 20px;
+    padding: 15px;
+}
+.botonInicio{ 
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Marcellus', serif;
+    font-weight: 650;
+    margin: 20px auto;
+}
+
+.estiloFooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 20px auto;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #255957;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Marcellus', serif;
+    background-color: #fdf3dd;
+    align-items: center;
+}
+.estiloFooter ul{
+    list-style: none;
+    padding: 20px;
+    line-height: 30px;
+}
+.estiloFooter ul a {
+    text-decoration: none;
+}
+.estiloFooter img{
+    margin-left: 40px;
+}
+.estiloFooter {
+    color: #e05311;
+}
+.estiloEnlaces{
+    text-align: right;
+}
+.estiloEnlaces2{
+    text-align: center;
+    font-weight: 600;
+}
+.estiloBread{
+    margin-left: 60px;
+    font-family: 'Mako', sans-serif;
+}
+
+/* Página Sobre Nosotros */
+.fondoSobre{
+    background-color: #fdf3dd;
+    background-image: url(/img/justicia-derecho-fondo-gris.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.tituloSobre{
+    margin-top: 5%;
+    padding-left: 8%;
+    padding-bottom: 10%;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+}
+.contenedorSobre{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+} 
+.contenedorSobre div p{
+    text-align: left;
+}
+.Sobre1{
+    background-color: #fdf3dd;
+    width: 60%;
+}
+.Sobre2{
+    background-color: #fdf3dd;
+    width: 40%; 
+    height: auto; 
+    padding-top: 30px;
+}
+/* Página Áreas de Práctica */
+
+.estiloPracticas{
+    width: 90%;
+    justify-items:center;
+    color: #3b1a0d;
+    font-family: 'Mako', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    line-height: 200%;
+    margin: 20px;
+    padding: 15px;
+}
+.estiloPracticas h3{
+    text-align: center;
+    
+}
+.estiloPracticas ul{
+    list-style: none;
+    text-align: center;
+}
+.estiloPracticas h3:hover{
+    color: #775a3f;
+}
+
+/* Página Novedades */
+
+.contenedorNovedades{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    flex-wrap: nowrap;
+}
+.contenedorNovedades p{
+    text-align:justify;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.novedades{
+    height: 330px;
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(184,184,184,1) 100%);
+}
+.novedades h1{
+    font-size: 80px;
+    margin-top: 130px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.enlacesNovedades ul{
+    text-decoration: none;
+    margin-left: 70px;
+    color: #e05311;
+    font-family: 'Mako', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: left;
+    line-height: 50px;
+    list-style-image: url(/img/star4.png);
+}
+.enlacesNovedades h4{
+    margin-left: 35px;
+    font-family: 'Marcellus', serif;
+    font-size: 25px;
+}
+.videoNovedades{
+    width: 500px;
+    height: 315px;
+}
+
+
+/*Página Contactanos*/
+
+.estiloContacto{
+    justify-items:center;
+    background-color: blanchedalmond;
+    justify-self: left;
+}
+.estiloContacto h4{
+    color: blanchedalmond;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 20%;
+    margin-left: 15px;
+    animation-duration: 5s;
+    animation-name: aparecer;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.listasContacto p{
+    color:#e06025;
+    margin-top: 0%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Mako', sans-serif
+}
+.listasContacto h3{
+    margin-left: 40px;
+}
+.listasContacto ul{
+    list-style: none;
+    margin-left: 40px;
+}
+.listasContacto a{
+    text-decoration: none;
+    line-height: 40px;
+    font-family: 'Mako', sans-serif;
+}
+/* formulario */
+.formcontacto{
+    width: 400px; 
+    font-size: 15px;
+    font-family: 'Mako', sans-serif;
+    margin: 40px auto;
+}
+
+.formcontacto legend{
+    color: #255957;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 25px ;
+}
+form label{
+    color: #255957;
+    font-family: 'Mako', sans-serif;
+    font-size: 18px;
+    padding: 20px auto;
+}
+input{
+    color: #775a3f; 
+    border-radius: 8px; 
+    border-style:double; 
+    border-color: #255957; 
+    background-color: #fdf4ed;
+    font-size: 15px;
+    padding: 5px;
+}
+textarea{
+    border:1px solid #6e4625;
+	border-radius:3px;
+	background-color: blanchedalmond;			
+	margin:8px;
+}
+select{
+    color: #255957; 
+    background-color: blanchedalmond; 
+    border-color: #255957; 
+    border-radius: 20px;
+    font-family: 'Mako', sans-serif;
+    font-size: 15px;
+}
+
+/*Mobile first*/
+@media only screen and (min-width: 768px) {
+    .fondoInicio{
+        background-color:#fdf3dd;
+    }
+    h1{
+        color: #255957;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fondoInicio{
+        background-image: none;
+        background-color: #000000d7;
+    }
+    .imgMobile{
+        display: block;
+    }
+    h1{
+        color: #fdf3dd;
+        margin-left: 25%;
+    }
+    h2{
+        color:#42817f;
+    }
+
+    .estiloFooter p{
+        color: #e05311;
+        margin-left: 50%;
+        margin-top: 20px;  
+    }
+    .estiloFooter img{
+        margin-left: 80%;
+    }
+    .tituloSobre h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .contenedorSobre{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        margin: 20px auto;
+    } 
+    .Sobre1{
+        background-color: #fdf3dd;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 0%;
+    }
+    .Sobre2{
+        background-color: #fdf3dd;
+        width: 100%; 
+        margin-right: 0%;
+    }
+    .contenedorNovedades{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .novedades{
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(184,184,184,1) 100%);
+    }
+    .novedades h1{
+        font-size: 60px;
+        margin-top: 100px;
+        color: #42817f;
+    }
+    .videoNovedades{
+        width: 350px;
+        height: auto;
+    }
+    .estiloFooter h4{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .fondoInicio{
+        background-color: #fdf3dd;
+    }
+    h1{
+        color: #255957;
+    }
+    .fondoSobre{
+        background-color: #fdf3dd;
+    }
+    h1{
+        color: #255957;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .fondoInicio{
+        background-image: none;
+        background-color: #000000d7;
+    }
+    h1{
+        color: #fdf3dd;
+    }
+    .fondoSobre{
+        background-image: none;
+        background-color: #000000d7;
+    }
+    h1{
+        color: #fdf3dd;
+    }
+  }
+
