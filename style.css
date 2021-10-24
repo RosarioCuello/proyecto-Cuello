@@ -293,7 +293,12 @@ h4{
     width: 500px;
     height: 315px;
 }
-
+.cardNovedades{
+    transition: all .6s ease-out;
+}
+.cardNovedades:hover{
+    transform: scale(1.25);
+}
 
 /*Página Contactanos*/
 
