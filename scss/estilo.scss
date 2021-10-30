@@ -9,8 +9,12 @@
 @import "index";
 @import "sobrenosotros";
 @import "areasdepractica";
+@import "novedades";
+@import "contactanos";
+@import "mediaqueries";
 
 body{
+    background-color: $bg-claro;
     header{
         width: 100%;
         padding: 1rem 0;
@@ -37,6 +41,7 @@ body{
             font-size: 20px;
             a{
                 text-decoration: none;
+                margin: 10px;
             }
             a:hover{  
                 font-weight: bold;

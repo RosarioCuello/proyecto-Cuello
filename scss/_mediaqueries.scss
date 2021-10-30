@@ -1,0 +1,113 @@
+@media only screen and (min-width: 768px) {
+    .fondoInicio{
+        background-color:#fdf3dd;
+    }
+    h1{
+        color: #255957;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fondoInicio{
+        background-image: none;
+        background-color: #000000d7;
+    }
+    .imgMobile{
+        display: block;
+    }
+    h1{
+        color: #fdf3dd;
+        margin-left: 25%;
+    }
+    h2{
+        color:#42817f;
+    }
+
+    .estiloFooter p{
+        color: #e05311;
+        margin-left: 50%;
+        margin-top: 20px;  
+    }
+    .estiloFooter img{
+        margin-left: 80%;
+    }
+    .tituloSobre h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .contenedorSobre{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        margin: 20px auto;
+    } 
+    .Sobre1{
+        background-color: #fdf3dd;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 0%;
+    }
+    .Sobre2{
+        background-color: #fdf3dd;
+        width: 100%; 
+        margin-right: 0%;
+    }
+    .contenedorNovedades{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .novedades{
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(184,184,184,1) 100%);
+    }
+    .novedades h1{
+        font-size: 60px;
+        margin-top: 100px;
+        color: #42817f;
+    }
+    .videoNovedades{
+        width: 350px;
+        height: auto;
+    }
+    .estiloFooter h4{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .fondoInicio{
+        background-color: #fdf3dd;
+    }
+    h1{
+        color: #255957;
+    }
+    .fondoSobre{
+        background-color: #fdf3dd;
+    }
+    h1{
+        color: #255957;
+    }  
+}
+@media only screen and (max-width: 1024px) {
+    .fondoInicio{
+        background-image: none;
+        background-color: #000000d7;
+    }
+    h1{
+        color: #fdf3dd;
+    }
+    .fondoSobre{
+        background-image: none;
+        background-color: #000000d7;
+    }
+    h1{
+        color: #fdf3dd;
+    }
+  }

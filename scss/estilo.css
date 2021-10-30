@@ -145,6 +145,331 @@
   color: #775a3f;
 }
 
+.contenedorNovedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.contenedorNovedades p {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.novedades {
+  height: 346px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #664c4c;
+  background: radial-gradient(circle, white 0%, #b8b8b8 100%);
+}
+
+.novedades h1 {
+  font-size: 80px;
+  margin-top: 134px;
+  margin-left: 50px;
+  margin-right: 164px;
+  font-family: 'Marcellus', serif;
+}
+
+.enlacesNovedades ul {
+  text-decoration: none;
+  margin-left: 70px;
+  color: #e05311;
+  font-family: 'Mako', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: left;
+  line-height: 50px;
+  list-style-image: url(/img/star4.png);
+}
+
+.enlacesNovedades h4 {
+  margin-left: 35px;
+  font-family: 'Marcellus', serif;
+  font-size: 25px;
+}
+
+.videoNovedades {
+  width: 500px;
+  height: 315px;
+}
+
+.cardNovedades {
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+}
+
+.cardNovedades:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.estiloContacto {
+  justify-items: center;
+  background-color: blanchedalmond;
+  -ms-grid-column-align: left;
+      justify-self: left;
+}
+
+.estiloContacto h4 {
+  color: blanchedalmond;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 20%;
+  margin-left: 15px;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.listasContacto p {
+  color: #e06025;
+  margin-top: 0%;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Mako', sans-serif;
+}
+
+.listasContacto h3 {
+  margin-left: 40px;
+}
+
+.listasContacto ul {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.listasContacto a {
+  text-decoration: none;
+  line-height: 40px;
+  font-family: 'Mako', sans-serif;
+}
+
+/* formulario */
+.formcontacto {
+  width: 400px;
+  font-size: 15px;
+  font-family: 'Mako', sans-serif;
+  margin: 40px auto;
+}
+
+.formcontacto legend {
+  color: #255957;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+form label {
+  color: #255957;
+  font-family: 'Mako', sans-serif;
+  font-size: 18px;
+  padding: 20px auto;
+}
+
+input {
+  color: #775a3f;
+  border-radius: 8px;
+  border-style: double;
+  border-color: #255957;
+  background-color: #fdf4ed;
+  font-size: 15px;
+  padding: 5px;
+}
+
+textarea {
+  border: 1px solid #6e4625;
+  border-radius: 3px;
+  background-color: blanchedalmond;
+  margin: 8px;
+}
+
+select {
+  color: #255957;
+  background-color: blanchedalmond;
+  border-color: #255957;
+  border-radius: 20px;
+  font-family: 'Mako', sans-serif;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .fondoInicio {
+    background-color: #fdf3dd;
+  }
+  h1 {
+    color: #255957;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fondoInicio {
+    background-image: none;
+    background-color: #000000d7;
+  }
+  .imgMobile {
+    display: block;
+  }
+  h1 {
+    color: #fdf3dd;
+    margin-left: 25%;
+  }
+  h2 {
+    color: #42817f;
+  }
+  .estiloFooter p {
+    color: #e05311;
+    margin-left: 50%;
+    margin-top: 20px;
+  }
+  .estiloFooter img {
+    margin-left: 80%;
+  }
+  .tituloSobre h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .contenedorSobre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px auto;
+  }
+  .Sobre1 {
+    background-color: #fdf3dd;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 0%;
+  }
+  .Sobre2 {
+    background-color: #fdf3dd;
+    width: 100%;
+    margin-right: 0%;
+  }
+  .contenedorNovedades {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .novedades {
+    width: 100%;
+    margin: 20px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: white;
+    background: radial-gradient(circle, white 0%, #b8b8b8 100%);
+  }
+  .novedades h1 {
+    font-size: 60px;
+    margin-top: 100px;
+    color: #42817f;
+  }
+  .videoNovedades {
+    width: 350px;
+    height: auto;
+  }
+  .estiloFooter h4 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .fondoInicio {
+    background-color: #fdf3dd;
+  }
+  h1 {
+    color: #255957;
+  }
+  .fondoSobre {
+    background-color: #fdf3dd;
+  }
+  h1 {
+    color: #255957;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .fondoInicio {
+    background-image: none;
+    background-color: #000000d7;
+  }
+  h1 {
+    color: #fdf3dd;
+  }
+  .fondoSobre {
+    background-image: none;
+    background-color: #000000d7;
+  }
+  h1 {
+    color: #fdf3dd;
+  }
+}
+
+body {
+  background-color: #fdf3dd;
+}
+
 body header {
   width: 100%;
   padding: 1rem 0;
@@ -190,6 +515,7 @@ body header nav {
 
 body header nav a {
   text-decoration: none;
+  margin: 10px;
 }
 
 body header nav a:hover {

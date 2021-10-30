@@ -1,0 +1,84 @@
+.estiloContacto{
+    justify-items:center;
+    background-color: blanchedalmond;
+    justify-self: left;
+}
+.estiloContacto h4{
+    color: blanchedalmond;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 20%;
+    margin-left: 15px;
+    animation-duration: 5s;
+    animation-name: aparecer;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.listasContacto p{
+    color:#e06025;
+    margin-top: 0%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Mako', sans-serif
+}
+.listasContacto h3{
+    margin-left: 40px;
+}
+.listasContacto ul{
+    list-style: none;
+    margin-left: 40px;
+}
+.listasContacto a{
+    text-decoration: none;
+    line-height: 40px;
+    font-family: 'Mako', sans-serif;
+}
+/* formulario */
+.formcontacto{
+    width: 400px; 
+    font-size: 15px;
+    font-family: 'Mako', sans-serif;
+    margin: 40px auto;
+}
+
+.formcontacto legend{
+    color: #255957;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 25px ;
+}
+form label{
+    color: #255957;
+    font-family: 'Mako', sans-serif;
+    font-size: 18px;
+    padding: 20px auto;
+}
+input{
+    color: #775a3f; 
+    border-radius: 8px; 
+    border-style:double; 
+    border-color: #255957; 
+    background-color: #fdf4ed;
+    font-size: 15px;
+    padding: 5px;
+}
+textarea{
+    border:1px solid #6e4625;
+	border-radius:3px;
+	background-color: blanchedalmond;			
+	margin:8px;
+}
+select{
+    color: #255957; 
+    background-color: blanchedalmond; 
+    border-color: #255957; 
+    border-radius: 20px;
+    font-family: 'Mako', sans-serif;
+    font-size: 15px;
+}
