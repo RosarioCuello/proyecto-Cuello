@@ -1,59 +1,35 @@
-body{
-    .fondoSobre{
+.contenedorNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}
+.Sobre{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+}
+.Sobre div p{
+    text-align: left;
+}
+.tituloSobre{
+    font-family: 'Marcellus', serif;
+    margin-top: 5%;
+    padding-left: 8%;
+    padding-bottom: 10%;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+}
+.Sobre1{
     background-color: $bg-claro;
-    background-image: url(/img/justicia-derecho-fondo-gris.jpg);
-    background-size:cover;
-    background-attachment: fixed;
-    }
-    div{
-    .contenedorSobre{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 95%;
-    }
-    }
-    main{
-        margin: 20px auto;
-        section{
-            h1{ 
-            .tituloSobre{
-                margin-top: 5%;
-                padding-left: 8%;
-                padding-bottom: 10%;
-                text-align: center;
-                display: inline-block;
-                width: 50%;
-                }
-                .titulo2{
-                    color: #255957;
-                    font-size: 35px;
-                    font-style: normal;
-                    font-family: 'Marcellus', serif;
-                    text-decoration: none;
-                    text-align: center;
-                }
-            }
-
-        }
-        .contenedorSobre{
-            display: flex;
-            flex-direction:row;
-            flex-wrap: nowrap;
-            align-items:flex-start;
-        } 
-        .contenedorSobre div p{
-            text-align: left;
-        }
-        .Sobre1{
-            background-color: #fdf3dd;
-            width: 60%;
-        }
-        .Sobre2{
-            background-color: #fdf3dd;
-            width: 40%; 
-            height: auto; 
-            padding-top: 30px;
-        }
-    }
-} 
+    width: 60%;
+}
+.Sobre2{
+    background-color: $bg-claro;
+    width: 40%; 
+    height: auto; 
+    padding-top: 30px;
+}

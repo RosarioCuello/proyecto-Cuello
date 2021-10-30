@@ -1,164 +1,27 @@
-body{
-    background-color: $bg-claro;
-    background-image: url(/img/justicia-derecho-estudio-juridico.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    .contenedor{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 95%;
-        margin: auto;
-    }
-    section{
-        h1{
-        color: $titulo-1;
-        font-size: 45px;
-        font-style: normal;
-        font-family: 'Marcellus', serif;
-        text-decoration: none;
-        text-align: right;
-        margin: 20px auto;
-        padding: 100px;
-        }
-        .imgMobile{
-            display: none;
-        }
-    }
-    header{
-        width: 100%;
-        padding: 1rem 0;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        background-color: $bg-claro;
-        .logo{
-            margin-left: 50px;
-            transition: all 4s ease-in;
-            img{
-                width: 120px;
-                }
-        }
-        .logo:hover{
-            transform: rotate(20deg); 
-            }
-        nav{
-            color: $color-marronoscuro;
-            margin: 20px;
-            font-family: 'Mako', sans-serif;
-            font-size: 20px;
-            a{
-                text-decoration: none;
-            }
-            a:hover{  
-                font-weight: bold;
-            }
-        }
-    }
-    main{
-        section{
-            background-color: $bg-claro;
-            width: 95%;
-            margin: auto;
-            }
-        h2{
-            color: $titulo2-naranja;
-            font-family: 'Marcellus', serif;
-            font-size: 40px;
-            font-style:normal;
-            text-align: center;
-            padding: 15px;
-        }
-        h3{
-            color: $titulo2-naranja;
-            font-family: 'Mako', sans-serif;
-            font-weight: 600;
-            font-size: 25px;
-            letter-spacing: 1px;
-            word-spacing: 2px; 
-            text-align: left;
-            padding: 15px;
-        }
-        h4{
-            color: $color-marronclaro;
-            font-family: 'Mako', sans-serif;
-            font-weight: 600;
-            font-size: 20px;
-            letter-spacing: 1px;
-            word-spacing: 2px;
-            text-align: left;
-            padding: 15px;
-        }
-        .estiloParrafo{
-            color: $color-parrafo;
-            font-family: 'Mako', sans-serif;
-            font-weight: 600;
-            font-size: 16px;
-            letter-spacing: 1px;
-            word-spacing: 2px;
-            text-align: left;
-            line-height: 250%;
-            margin: 40px;
-            padding: 15px;    
-        }
-        .parrafoSmall{
-            color: $color-parrafo;
-            font-family: 'Mako', sans-serif;
-            font-weight: 600;
-            font-size: 15px;
-            letter-spacing: 1px;
-            word-spacing: 2px;
-            text-align: left;
-            line-height: 200%;
-            margin: 20px;
-            padding: 15px;
-        }
-        .botonInicio{ 
-            color: rgb(255, 255, 255);
-            padding: 15px 25px;
-            text-decoration: none;
-            width: fit-content;
-            border-radius: 10px;
-            font-size: 18px;
-            font-family: 'Marcellus', serif;
-            font-weight: 650;
-            margin-left: 42%;
-            margin-bottom: 20px;
-            margin-top: 20px;
-        }   
-    }
-    footer{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 95%;
-        margin: 20px auto;
-        justify-content: space-between;
-        font-size: 15px;
-        color: #255957;
-        letter-spacing: 1px;
-        word-spacing: 2px;
-        font-family: 'Marcellus', serif;
-        background-color: #fdf3dd;
-        align-items: center;
-        ul{
-            list-style: none;
-            padding: 20px;
-            line-height: 30px;
-            text-align: right;
-                a{
-                text-decoration: none;
-            }
-        }
-        p{
-            text-align: center;
-            font-weight: 600;
-        }
-        img{
-            width: 130px;
-            margin-left: 40px;
-        }
-    }
+.principal{
+    background-color:#fdf3dd;
+    width: 95%;
+    margin: auto;
 }
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}
+.titulo1{
+    color: $titulo-1;
+    font-size: 45px;
+    font-style: normal;
+    font-family: 'Marcellus', serif;
+    text-decoration: none;
+    text-align: right;
+    margin: 20px auto;
+    padding: 100px;
+}
+.imgMobile{
+    display: none;
+}
+
+

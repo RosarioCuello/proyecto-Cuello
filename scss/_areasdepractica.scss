@@ -1,0 +1,32 @@
+.tituloPracticas{
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    color: $titulo-1;
+    margin: 20px auto;
+    padding: 30px;
+}
+.estiloPracticas{
+    width: 90%;
+    justify-items:center;
+    color: #3b1a0d;
+    font-family: 'Mako', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    line-height: 200%;
+    margin: 20px;
+    padding: 15px;
+}
+.estiloPracticas h3{
+    text-align: center;
+    
+}
+.estiloPracticas ul{
+    list-style: none;
+    text-align: center;
+}
+.estiloPracticas h3:hover{
+    color: #775a3f;
+}
