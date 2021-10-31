@@ -13,6 +13,7 @@
 }
 .Sobre div p{
     text-align: left;
+    margin: 20px;
 }
 .tituloSobre{
     font-family: 'Marcellus', serif;
@@ -25,11 +26,22 @@
 }
 .Sobre1{
     background-color: $bg-claro;
-    width: 60%;
+    width: 50%;
 }
 .Sobre2{
     background-color: $bg-claro;
-    width: 40%; 
+    width: 38%; 
     height: auto; 
     padding-top: 30px;
+}
+.Sobre3{
+    padding-top: 0%;
+    background: $bg-claro;
+    p{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    img{
+        padding-left: 100px;
+    }
 }

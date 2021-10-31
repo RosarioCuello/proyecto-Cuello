@@ -20,8 +20,9 @@
         opacity: 1;
     }
 }
+
 .listasContacto p{
-    color:#e06025;
+    color: $titulo2-naranja;
     margin-top: 0%;
     font-size: 15px;
     font-weight: 400;
@@ -39,6 +40,14 @@
     line-height: 40px;
     font-family: 'Mako', sans-serif;
 }
+.enlacesRedes{
+    transition: all .6s ease-out;
+}
+
+.enlacesRedes:hover{
+    transform: scale(1.20);
+}
+
 /* formulario */
 .formcontacto{
     width: 400px; 
@@ -48,36 +57,36 @@
 }
 
 .formcontacto legend{
-    color: #255957;
+    color: $titulo-1;
     font-weight: bold;
     font-size: 30px;
     padding-bottom: 25px ;
 }
 form label{
-    color: #255957;
+    color: $titulo-1;
     font-family: 'Mako', sans-serif;
     font-size: 18px;
     padding: 20px auto;
 }
 input{
-    color: #775a3f; 
+    color: $color-marronclaro; 
     border-radius: 8px; 
     border-style:double; 
-    border-color: #255957; 
+    border-color: $titulo-1; 
     background-color: #fdf4ed;
     font-size: 15px;
     padding: 5px;
 }
 textarea{
-    border:1px solid #6e4625;
+    border:1px solid $color-marronclaro;
 	border-radius:3px;
 	background-color: blanchedalmond;			
 	margin:8px;
 }
 select{
-    color: #255957; 
+    color: $titulo-1; 
     background-color: blanchedalmond; 
-    border-color: #255957; 
+    border-color: $titulo-1; 
     border-radius: 20px;
     font-family: 'Mako', sans-serif;
     font-size: 15px;

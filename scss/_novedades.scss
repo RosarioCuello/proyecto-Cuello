@@ -28,7 +28,7 @@
 .enlacesNovedades ul{
     text-decoration: none;
     margin-left: 70px;
-    color: #e05311;
+    color: $titulo2-naranja;
     font-family: 'Mako', sans-serif;
     font-weight: 600;
     font-size: 15px;
@@ -51,5 +51,5 @@
     transition: all .6s ease-out;
 }
 .cardNovedades:hover{
-    transform: scale(1.25);
+    transform: scale(1.20);
 }

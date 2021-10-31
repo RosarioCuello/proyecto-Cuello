@@ -6,9 +6,8 @@
         color: #255957;
     }
 }
-
 @media only screen and (max-width: 768px) {
-    .fondoInicio{
+    .fondoIndex{
         background-image: none;
         background-color: #000000d7;
     }
@@ -22,7 +21,6 @@
     h2{
         color:#42817f;
     }
-
     .estiloFooter p{
         color: #e05311;
         margin-left: 50%;
@@ -35,7 +33,7 @@
         font-size: 50px;
         text-align: center;
     }
-    .contenedorSobre{
+    .Sobre{
         display: flex;
         flex-direction:row;
         flex-wrap: wrap;
@@ -53,6 +51,14 @@
         background-color: #fdf3dd;
         width: 100%; 
         margin-right: 0%;
+    }
+    .Sobre3{
+        img{
+            width: 300px;
+            height: auto;
+            padding-left: 0%;
+            padding-right: 5%;
+        }
     }
     .contenedorNovedades{
         display: flex;
@@ -110,4 +116,4 @@
     h1{
         color: #fdf3dd;
     }
-  }
+}
