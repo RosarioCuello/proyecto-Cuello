@@ -1,9 +1,7 @@
+$widht: 95%;
+
 .contenedorNav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: auto;
+   @extend .contenedor;
 }
 .Sobre{
     display: flex;
@@ -22,11 +20,11 @@
     padding-bottom: 10%;
     text-align: center;
     display: inline-block;
-    width: 50%;
+    width: $widht/2;
 }
 .Sobre1{
     background-color: $bg-claro;
-    width: 50%;
+    width: $widht/2;
 }
 .Sobre2{
     background-color: $bg-claro;

@@ -7,17 +7,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 95%;
-    margin: auto;
+    @extend .principal;
+}
+.titulos{
+    color: $titulo-1;
+    font-family: 'Marcellus', serif;
+    margin: 20px auto;
 }
 .titulo1{
-    color: $titulo-1;
+    @extend .titulos;
     font-size: 45px;
     font-style: normal;
-    font-family: 'Marcellus', serif;
     text-decoration: none;
     text-align: right;
-    margin: 20px auto;
     padding: 100px;
 }
 .imgMobile{

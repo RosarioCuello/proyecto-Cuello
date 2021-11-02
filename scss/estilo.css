@@ -19,13 +19,13 @@
   background-attachment: fixed;
 }
 
-.principal {
+.principal, .contenedor, .contenedorNav {
   background-color: #fdf3dd;
   width: 95%;
   margin: auto;
 }
 
-.contenedor {
+.contenedor, .contenedorNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,37 +35,24 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 95%;
-  margin: auto;
+}
+
+.titulos, .titulo1, .tituloPracticas {
+  color: #255957;
+  font-family: 'Marcellus', serif;
+  margin: 20px auto;
 }
 
 .titulo1 {
-  color: #255957;
   font-size: 45px;
   font-style: normal;
-  font-family: 'Marcellus', serif;
   text-decoration: none;
   text-align: right;
-  margin: 20px auto;
   padding: 100px;
 }
 
 .imgMobile {
   display: none;
-}
-
-.contenedorNav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 95%;
-  margin: auto;
 }
 
 .Sobre {
@@ -95,12 +82,12 @@
   padding-bottom: 10%;
   text-align: center;
   display: inline-block;
-  width: 50%;
+  width: 47.5%;
 }
 
 .Sobre1 {
   background-color: #fdf3dd;
-  width: 50%;
+  width: 47.5%;
 }
 
 .Sobre2 {
@@ -126,9 +113,6 @@
 
 .tituloPracticas {
   text-align: center;
-  font-family: 'Marcellus', serif;
-  color: #255957;
-  margin: 20px auto;
   padding: 30px;
 }
 
@@ -238,6 +222,10 @@
           transform: scale(1.2);
 }
 
+.tituloc {
+  font-size: 55px;
+}
+
 .estiloContacto {
   justify-items: center;
   background-color: blanchedalmond;
@@ -248,11 +236,11 @@
 .estiloContacto h4 {
   color: blanchedalmond;
   text-align: left;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 20%;
   margin-left: 15px;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
 }
@@ -328,6 +316,7 @@ form label {
   font-family: 'Mako', sans-serif;
   font-size: 18px;
   padding: 20px auto;
+  margin: 10px;
 }
 
 input {
@@ -425,6 +414,14 @@ select {
     padding-left: 0%;
     padding-right: 5%;
   }
+  .tituloPracticas h1 {
+    color: #312018;
+    text-align: left;
+    font-size: 50px;
+  }
+  #carouselExampleInterval {
+    display: none;
+  }
   .contenedorNovedades {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -453,15 +450,25 @@ select {
   }
   .novedades h1 {
     font-size: 60px;
-    margin-top: 100px;
-    color: #42817f;
+    text-align: center;
+    color: #312018;
   }
   .videoNovedades {
     width: 350px;
     height: auto;
   }
+  .cardNovedades {
+    width: 150px;
+    height: auto;
+  }
   .estiloFooter h4 {
     display: none;
+  }
+  .tituloc {
+    font-size: 40px;
+  }
+  textarea {
+    width: 300px;
   }
 }
 

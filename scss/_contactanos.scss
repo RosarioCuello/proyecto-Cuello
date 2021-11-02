@@ -1,3 +1,6 @@
+.tituloc{
+    font-size: 55px;
+}
 .estiloContacto{
     justify-items:center;
     background-color: blanchedalmond;
@@ -6,10 +9,10 @@
 .estiloContacto h4{
     color: blanchedalmond;
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 20%;
     margin-left: 15px;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: aparecer;
 }
 @keyframes aparecer{
@@ -67,6 +70,7 @@ form label{
     font-family: 'Mako', sans-serif;
     font-size: 18px;
     padding: 20px auto;
+    margin: 10px;
 }
 input{
     color: $color-marronclaro; 

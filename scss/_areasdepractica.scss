@@ -1,9 +1,7 @@
 .tituloPracticas{
+    @extend .titulos;
     text-align: center;
-    font-family: 'Marcellus', serif;
-    color: $titulo-1;
-    margin: 20px auto;
-    padding: 30px;
+    padding: 30px;    
 }
 .estiloPracticas{
     width: 90%;
