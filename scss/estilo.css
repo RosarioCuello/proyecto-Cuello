@@ -164,7 +164,7 @@
 }
 
 .novedades {
-  height: 346px;
+  height: 379px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,8 +182,8 @@
 .novedades h1 {
   font-size: 80px;
   margin-top: 134px;
-  margin-left: 50px;
-  margin-right: 164px;
+  margin-left: 85px;
+  margin-right: 191px;
   font-family: 'Marcellus', serif;
 }
 
